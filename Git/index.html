@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Git | 萌萌哒的瑞萌萌</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    <link rel="icon" href="/V.png">
+    <meta name="description" content="">
+    <link rel="preload" href="/assets/css/0.styles.30c7bf29.css" as="style"><link rel="preload" href="/assets/js/app.9189764f.js" as="script"><link rel="preload" href="/assets/js/2.ef243b8b.js" as="script"><link rel="preload" href="/assets/js/8.feefd08d.js" as="script"><link rel="prefetch" href="/assets/js/10.903576aa.js"><link rel="prefetch" href="/assets/js/11.6ee9811e.js"><link rel="prefetch" href="/assets/js/12.937ec838.js"><link rel="prefetch" href="/assets/js/13.7f5f13fd.js"><link rel="prefetch" href="/assets/js/14.a542474a.js"><link rel="prefetch" href="/assets/js/15.14a7d97c.js"><link rel="prefetch" href="/assets/js/16.3b94da96.js"><link rel="prefetch" href="/assets/js/3.c528d442.js"><link rel="prefetch" href="/assets/js/4.7bd9e854.js"><link rel="prefetch" href="/assets/js/5.0210a7e9.js"><link rel="prefetch" href="/assets/js/6.b1764dcb.js"><link rel="prefetch" href="/assets/js/7.ed543e95.js"><link rel="prefetch" href="/assets/js/9.17255510.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.30c7bf29.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/V.png" alt="萌萌哒的瑞萌萌" class="logo"> <span class="site-name can-hide">萌萌哒的瑞萌萌</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="学习笔记" class="dropdown-title"><span class="title">学习笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/HTML/" class="nav-link">
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/CSS/" class="nav-link">
+  CSS
+</a></li><li class="dropdown-item"><!----> <a href="/Sass/" class="nav-link">
+  Sass
+</a></li><li class="dropdown-item"><!----> <a href="/Less/" class="nav-link">
+  Less
+</a></li><li class="dropdown-item"><!----> <a href="/Bootstrap4/" class="nav-link">
+  Bootstrap4
+</a></li><li class="dropdown-item"><!----> <a href="/JSON/" class="nav-link">
+  JSON
+</a></li><li class="dropdown-item"><!----> <a href="/AJAX/" class="nav-link">
+  AJAX
+</a></li><li class="dropdown-item"><!----> <a href="/Linux/" class="nav-link">
+  Linux
+</a></li><li class="dropdown-item"><!----> <a href="/Git/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/Vue/" class="nav-link">
+  Vue
+</a></li><li class="dropdown-item"><!----> <a href="/HTTP/" class="nav-link">
+  HTTP
+</a></li><li class="dropdown-item"><!----> <a href="/Webpack/" class="nav-link">
+  Webpack
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/KongC-X" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="学习笔记" class="dropdown-title"><span class="title">学习笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/HTML/" class="nav-link">
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/CSS/" class="nav-link">
+  CSS
+</a></li><li class="dropdown-item"><!----> <a href="/Sass/" class="nav-link">
+  Sass
+</a></li><li class="dropdown-item"><!----> <a href="/Less/" class="nav-link">
+  Less
+</a></li><li class="dropdown-item"><!----> <a href="/Bootstrap4/" class="nav-link">
+  Bootstrap4
+</a></li><li class="dropdown-item"><!----> <a href="/JSON/" class="nav-link">
+  JSON
+</a></li><li class="dropdown-item"><!----> <a href="/AJAX/" class="nav-link">
+  AJAX
+</a></li><li class="dropdown-item"><!----> <a href="/Linux/" class="nav-link">
+  Linux
+</a></li><li class="dropdown-item"><!----> <a href="/Git/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/Vue/" class="nav-link">
+  Vue
+</a></li><li class="dropdown-item"><!----> <a href="/HTTP/" class="nav-link">
+  HTTP
+</a></li><li class="dropdown-item"><!----> <a href="/Webpack/" class="nav-link">
+  Webpack
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/KongC-X" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/Git/" aria-current="page" class="active sidebar-link">Git</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/Git/#什么是版本控制" class="sidebar-link">什么是版本控制</a></li><li class="sidebar-sub-header"><a href="/Git/#常见的版本控制工具" class="sidebar-link">常见的版本控制工具</a></li><li class="sidebar-sub-header"><a href="/Git/#版本控制分类" class="sidebar-link">版本控制分类</a></li><li class="sidebar-sub-header"><a href="/Git/#git-与-svn-的主要区别" class="sidebar-link">Git 与 SVN 的主要区别</a></li><li class="sidebar-sub-header"><a href="/Git/#常用的-linux-命令" class="sidebar-link">常用的 Linux 命令</a></li><li class="sidebar-sub-header"><a href="/Git/#git-配置" class="sidebar-link">Git 配置</a></li><li class="sidebar-sub-header"><a href="/Git/#设置用户名与邮箱（用户标识，必要）" class="sidebar-link">设置用户名与邮箱（用户标识，必要）</a></li><li class="sidebar-sub-header"><a href="/Git/#git-基本理论（重要）" class="sidebar-link">Git 基本理论（重要）</a></li><li class="sidebar-sub-header"><a href="/Git/#git-项目搭建" class="sidebar-link">Git 项目搭建</a></li><li class="sidebar-sub-header"><a href="/Git/#git-文件操作" class="sidebar-link">Git 文件操作</a></li><li class="sidebar-sub-header"><a href="/Git/#说明：git-分支" class="sidebar-link">说明：GIT 分支</a></li><li class="sidebar-sub-header"><a href="/Git/#仓库" class="sidebar-link">仓库</a></li><li class="sidebar-sub-header"><a href="/Git/#配置" class="sidebar-link">配置</a></li><li class="sidebar-sub-header"><a href="/Git/#增加-删除文件" class="sidebar-link">增加/删除文件</a></li><li class="sidebar-sub-header"><a href="/Git/#代码提交" class="sidebar-link">代码提交</a></li><li class="sidebar-sub-header"><a href="/Git/#分支" class="sidebar-link">分支</a></li><li class="sidebar-sub-header"><a href="/Git/#标签" class="sidebar-link">标签</a></li><li class="sidebar-sub-header"><a href="/Git/#查看信息" class="sidebar-link">查看信息</a></li><li class="sidebar-sub-header"><a href="/Git/#远程同步" class="sidebar-link">远程同步</a></li><li class="sidebar-sub-header"><a href="/Git/#撤销" class="sidebar-link">撤销</a></li><li class="sidebar-sub-header"><a href="/Git/#其他" class="sidebar-link">其他</a></li></ul></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="git"><a href="#git" class="header-anchor">#</a> Git</h1> <p>Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。</p> <p>Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。</p> <p>Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持。</p> <h2 id="什么是版本控制"><a href="#什么是版本控制" class="header-anchor">#</a> 什么是版本控制</h2> <p>版本控制（Revision control）是一种在开发的过程中用于管理我们对文件、目录或工程等内容的修改历史，方便查看更改历史记录，备份以便恢复以前的版本的软件工程技术。</p> <ul><li>实现跨区域多人协同开发</li> <li>追踪和记载一个或者多个文件的历史记录</li> <li>组织和保护你的源代码和文档</li> <li>统计工作量</li> <li>并行开发、提高开发效率</li> <li>跟踪记录整个软件的开发过程</li> <li>减轻开发人员的负担，节省时间，同时降低人为错误</li></ul> <p>简单说就是用于管理多人协同开发项目的技术。</p> <p>没有进行版本控制或者版本控制本身缺乏正确的流程管理，在软件开发过程中将会引入很多问题，如软件代码的一致性、软件内容的冗余、软件过程的事物性、软件开发过程中的并发性、软件源代码的安全性，以及软件的整合等问题。</p> <h2 id="常见的版本控制工具"><a href="#常见的版本控制工具" class="header-anchor">#</a> 常见的版本控制工具</h2> <p>主流的版本控制器有如下这些：</p> <ul><li><strong>Git</strong></li> <li><strong>SVN</strong>（Subversion）</li> <li><strong>CVS</strong>（Concurrent Versions System）</li> <li><strong>VSS</strong>（Micorosoft Visual SourceSafe）</li> <li><strong>TFS</strong>（Team Foundation Server）</li> <li>Visual Studio Online</li></ul> <p>版本控制产品非常的多（Perforce、Rational ClearCase、RCS（GNU Revision Control System）、Serena Dimention、SVK、BitKeeper、Monotone、Bazaar、Mercurial、SourceGear Vault），现在影响力最大且使用最广泛的是 Git 与 SVN</p> <h2 id="版本控制分类"><a href="#版本控制分类" class="header-anchor">#</a> 版本控制分类</h2> <p><strong>1、本地版本控制</strong></p> <p>记录文件每次的更新，可以对每个版本做一个快照，或是记录补丁文件，适合个人用，如 RCS。</p> <p><img src="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7Ksu8UlITwMlbX3kMGtZ9p0Dg3fHrbPqbNEOMO9GTjFhVaukMZWx54icS7eS2x8A7BEu0VB9ibwEhzQ/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p> <p><strong>2、集中版本控制 SVN</strong></p> <p>所有的版本数据都保存在服务器上，协同开发者从服务器上同步更新或上传自己的修改</p> <p><img src="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7Ksu8UlITwMlbX3kMGtZ9p00V4uLaibxtZI9RLpq7tkSdlWiaF92AVeZ0ib9DicqBkS2poo5u8sEU2mCQ/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p> <p>所有的版本数据都存在服务器上，用户的本地只有自己以前所同步的版本，如果不连网的话，用户就看不到历史版本，也无法切换版本验证问题，或在不同分支工作。而且，所有数据都保存在单一的服务器上，有很大的风险这个服务器会损坏，这样就会丢失所有的数据，当然可以定期备份。代表产品：SVN、CVS、VSS</p> <p><strong>3、分布式版本控制 Git</strong></p> <p>每个人都拥有全部的代码！安全隐患！</p> <p>所有版本信息仓库全部同步到本地的每个用户，这样就可以在本地查看所有版本历史，可以离线在本地提交，只需在连网时 push 到相应的服务器或其他用户那里。由于每个用户那里保存的都是所有的版本数据，只要有一个用户的设备没有问题就可以恢复所有的数据，但这增加了本地存储空间的占用。</p> <p>不会因为服务器损坏或者网络问题，造成不能工作的情况！</p> <p><img src="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7Ksu8UlITwMlbX3kMGtZ9p0ev8Q7qXjsTfeSwFexdA4tGjFAiaVEKQzAHdGcINXILKflI2cfk9BiawQ/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p> <h2 id="git-与-svn-的主要区别"><a href="#git-与-svn-的主要区别" class="header-anchor">#</a> Git 与 SVN 的主要区别</h2> <p>SVN 是集中式版本控制系统，版本库是集中放在中央服务器的，而工作的时候，用的都是自己的电脑，所以首先要从中央服务器得到最新的版本，然后工作，完成工作后，需要把自己做完的活推送到中央服务器。集中式版本控制系统是必须联网才能工作，对网络带宽要求较高。</p> <p><img src="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7Ksu8UlITwMlbX3kMGtZ9p0qtEIDr2NG6rOGg1UgDu5c3ffRR8P7FD5D8BPLUEXp0hQoL7qfp3I6g/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p> <p>Git 是分布式版本控制系统，没有中央服务器，每个人的电脑就是一个完整的版本库，工作的时候不需要联网了，因为版本都在自己电脑上。协同的方法是这样的：比如说自己在电脑上改了文件 A，其他人也在电脑上改了文件 A，这时，你们两之间只需把各自的修改推送给对方，就可以互相看到对方的修改了。Git 可以直接看到更新了哪些代码和文件！</p> <p><strong>Git 是目前世界上最先进的分布式版本控制系统。</strong></p> <h2 id="常用的-linux-命令"><a href="#常用的-linux-命令" class="header-anchor">#</a> 常用的 Linux 命令</h2> <p>平时一定要多使用这些基础的命令！</p> <p>1）cd : 改变目录。</p> <p>2）cd . . 回退到上一个目录，直接 cd 进入默认目录</p> <p>3）pwd : 显示当前所在的目录路径。</p> <p>4）ls(ll): 都是列出当前目录中的所有文件，只不过 ll(两个 ll)列出的内容更为详细。</p> <p>5）touch : 新建一个文件 如 touch index.js 就会在当前目录下新建一个 index.js 文件。</p> <p>6）rm: 删除一个文件, rm index.js 就会把 index.js 文件删除。</p> <p>7）mkdir: 新建一个目录,就是新建一个文件夹。</p> <p>8）rm -r : 删除一个文件夹, rm -r src 删除 src 目录</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">rm</span> -rf / 切勿在Linux中尝试！删除电脑中全部文件！
+</code></pre></div><p>9）mv 移动文件, mv index.html src index.html 是我们要移动的文件, src 是目标文件夹,当然, 这样写,必须保证文件和目标文件夹在同一目录下。</p> <p>10）reset 重新初始化终端/清屏。</p> <p>11）clear 清屏。</p> <p>12）history 查看命令历史。</p> <p>13）help 帮助。</p> <p>14）exit 退出。</p> <p>15）#表示注释</p> <h2 id="git-配置"><a href="#git-配置" class="header-anchor">#</a> Git 配置</h2> <p>所有的配置文件，其实都保存在本地！</p> <p>查看配置 git config -l</p> <p><img src="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7Ksu8UlITwMlbX3kMGtZ9p0GJANibs86DwYqoADdgZySGibmafR8p1XBq6ZG3t0J2wSg9icrIVVQo6dQ/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p> <p>查看不同级别的配置文件：</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment">#查看系统config</span>
+<span class="token function">git</span> config --system --list　
+
+<span class="token comment">#查看当前用户（global）配置</span>
+<span class="token function">git</span> config --global  --list
+</code></pre></div><p><strong>Git 相关的配置文件：</strong></p> <p>1）Git\etc\gitconfig ：Git 安装目录下的 gitconfig --system 系统级</p> <p>2）C:\Users\Administrator\ .gitconfig 只适用于当前登录用户的配置 --global 全局</p> <p><img src="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7Ksu8UlITwMlbX3kMGtZ9p0hcJS0rxj3qoCVvfDKh3WxwQJlSV3P15EIZuejraOwXLdic6NCB8X8oQ/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p> <p>这里可以直接编辑配置文件，通过命令设置后会响应到这里。</p> <h2 id="设置用户名与邮箱（用户标识，必要）"><a href="#设置用户名与邮箱（用户标识，必要）" class="header-anchor">#</a> 设置用户名与邮箱（用户标识，必要）</h2> <p>当你安装 Git 后首先要做的事情是设置你的用户名称和 e-mail 地址。这是非常重要的，因为每次 Git 提交都会使用该信息。它被永远的嵌入到了你的提交中：</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">git</span> config --global user.name <span class="token string">&quot;kuangshen&quot;</span>  <span class="token comment">#名称</span>
+<span class="token function">git</span> config --global user.email <span class="token number">24736743</span>@qq.com   <span class="token comment">#邮箱</span>
+</code></pre></div><p>只需要做一次这个设置，如果你传递了--global 选项，因为 Git 将总是会使用该信息来处理你在系统中所做的一切操作。如果你希望在一个特定的项目中使用不同的名称或 e-mail 地址，你可以在该项目中运行该命令而不要--global 选项。总之--global 为全局配置，不加为某个项目的特定配置。</p> <p><img src="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7Ksu8UlITwMlbX3kMGtZ9p0zQZY37q1iaG0n7445X8YgPVvZH5AqyGvT4RgmoyIcZlJWiaLcxyDgSdQ/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p> <h2 id="git-基本理论（重要）"><a href="#git-基本理论（重要）" class="header-anchor">#</a> Git 基本理论（重要）</h2> <h3 id="三个区域"><a href="#三个区域" class="header-anchor">#</a> 三个区域</h3> <p>Git 本地有三个工作区域：工作目录（Working Directory）、暂存区(Stage/Index)、资源库(Repository 或 Git Directory)。如果在加上远程的 git 仓库(Remote Directory)就可以分为四个工作区域。文件在这四个区域之间的转换关系如下：</p> <p><img src="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7Ksu8UlITwMlbX3kMGtZ9p0NJ4L9OPI9ia1MmibpvDd6cSddBdvrlbdEtyEOrh4CKnWVibyfCHa3lzXw/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p> <ul><li>Workspace：工作区，就是你平时存放项目代码的地方</li> <li>Index / Stage：暂存区，用于临时存放你的改动，事实上它只是一个文件，保存即将提交到文件列表信息</li> <li>Repository：仓库区（或本地仓库），就是安全存放数据的位置，这里面有你提交到所有版本的数据。其中 HEAD 指向最新放入仓库的版本</li> <li>Remote：远程仓库，托管代码的服务器，可以简单的认为是你项目组中的一台电脑用于远程数据交换</li></ul> <p>本地的三个区域确切的说应该是 git 仓库中 HEAD 指向的版本：</p> <p><img src="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7Ksu8UlITwMlbX3kMGtZ9p0icz6X2aibIgUWzHxtwX8kicPCKpDrsiaPzZk04OlI2bzlydzicBuXTJvLEQ/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p> <ul><li>Directory：使用 Git 管理的一个目录，也就是一个仓库，包含我们的工作空间和 Git 的管理空间。</li> <li>WorkSpace：需要通过 Git 进行版本控制的目录和文件，这些目录和文件组成了工作空间。</li> <li>.git：存放 Git 管理信息的目录，初始化仓库的时候自动创建。</li> <li>Index/Stage：暂存区，或者叫待提交更新区，在提交进入 repo 之前，我们可以把所有的更新放在暂存区。</li> <li>Local Repo：本地仓库，一个存放在本地的版本库；HEAD 会只是当前的开发分支（branch）。</li> <li>Stash：隐藏，是一个工作状态保存栈，用于保存/恢复 WorkSpace 中的临时状态。</li></ul> <h3 id="工作流程"><a href="#工作流程" class="header-anchor">#</a> 工作流程</h3> <p>git 的工作流程一般是这样的：</p> <p>１、在工作目录中添加、修改文件；</p> <p>２、将需要进行版本管理的文件放入暂存区域；</p> <p>３、将暂存区域的文件提交到 git 仓库。</p> <p>因此，git 管理的文件有三种状态：已修改（modified）,已暂存（staged）,已提交(committed)</p> <p><img src="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7Ksu8UlITwMlbX3kMGtZ9p09iaOhl0dACfLrMwNbDzucGQ30s3HnsiaczfcR6dC9OehicuwibKuHjRlzg/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p> <h2 id="git-项目搭建"><a href="#git-项目搭建" class="header-anchor">#</a> Git 项目搭建</h2> <h3 id="创建工作目录与常用指令"><a href="#创建工作目录与常用指令" class="header-anchor">#</a> 创建工作目录与常用指令</h3> <p>工作目录（WorkSpace)一般就是你希望 Git 帮助你管理的文件夹，可以是你项目的目录，也可以是一个空目录，建议不要有中文。</p> <p>日常使用只要记住下图 6 个命令：</p> <p><img src="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7Ksu8UlITwMlbX3kMGtZ9p0AII6YVooUzibpibzJnoOHHXUsL3f9DqA4horUibfcpEZ88Oyf2gQQNR6w/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p> <h3 id="本地仓库搭建"><a href="#本地仓库搭建" class="header-anchor">#</a> 本地仓库搭建</h3> <p>创建本地仓库的方法有两种：一种是创建全新的仓库，另一种是克隆远程仓库。</p> <p>1、创建全新的仓库，需要用 GIT 管理的项目的根目录执行：</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># 在当前目录新建一个Git代码库</span>
+$ <span class="token function">git</span> init
+</code></pre></div><p>2、执行后可以看到，仅仅在项目目录多出了一个.git 目录，关于版本等的所有信息都在这个目录里面。</p> <h3 id="克隆远程仓库"><a href="#克隆远程仓库" class="header-anchor">#</a> 克隆远程仓库</h3> <p>1、另一种方式是克隆远程目录，由于是将远程服务器上的仓库完全镜像一份至本地！</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># 克隆一个项目和它的整个代码历史(版本信息)</span>
+$ <span class="token function">git</span> clone <span class="token punctuation">[</span>url<span class="token punctuation">]</span>  <span class="token comment"># https://gitee.com/kuangstudy/openclass.git</span>
+</code></pre></div><p>2、去 gitee 或者 github 上克隆一个测试！</p> <h2 id="git-文件操作"><a href="#git-文件操作" class="header-anchor">#</a> Git 文件操作</h2> <h3 id="文件的四种状态"><a href="#文件的四种状态" class="header-anchor">#</a> 文件的四种状态</h3> <p>版本控制就是对文件的版本控制，要对文件进行修改、提交等操作，首先要知道文件当前在什么状态，不然可能会提交了现在还不想提交的文件，或者要提交的文件没提交上。</p> <ul><li>Untracked: 未跟踪, 此文件在文件夹中, 但并没有加入到 git 库, 不参与版本控制. 通过 git add 状态变为 Staged.</li> <li>Unmodify: 文件已经入库, 未修改, 即版本库中的文件快照内容与文件夹中完全一致. 这种类型的文件有两种去处, 如果它被修改, 而变为 Modified. 如果使用 git rm 移出版本库, 则成为 Untracked 文件</li> <li>Modified: 文件已修改, 仅仅是修改, 并没有进行其他的操作. 这个文件也有两个去处, 通过 git add 可进入暂存 staged 状态, 使用 git checkout 则丢弃修改过, 返回到 unmodify 状态, 这个 git checkout 即从库中取出文件, 覆盖当前修改 !</li> <li>Staged: 暂存状态. 执行 git commit 则将修改同步到库中, 这时库中的文件和本地文件又变为一致, 文件为 Unmodify 状态. 执行 git reset HEAD filename 取消暂存, 文件状态为 Modified</li></ul> <h3 id="查看文件状态"><a href="#查看文件状态" class="header-anchor">#</a> 查看文件状态</h3> <p>上面说文件有 4 种状态，通过如下命令可以查看到文件的状态：</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment">#查看指定文件状态</span>
+<span class="token function">git</span> status <span class="token punctuation">[</span>filename<span class="token punctuation">]</span>
+<span class="token comment">#查看所有文件状态</span>
+<span class="token function">git</span> status
+<span class="token comment"># git add .                  添加所有文件到暂存区</span>
+<span class="token comment"># git commit -m &quot;消息内容&quot;    提交暂存区中的内容到本地仓库 -m 提交信息</span>
+</code></pre></div><h3 id="忽略文件"><a href="#忽略文件" class="header-anchor">#</a> 忽略文件</h3> <p>有些时候我们不想把某些文件纳入版本控制中，比如数据库文件，临时文件，设计文件等</p> <p>在主目录下建立&quot;.gitignore&quot;文件，此文件有如下规则：</p> <ol><li>忽略文件中的空行或以井号（#）开始的行将会被忽略。</li> <li>可以使用 Linux 通配符。例如：星号（*）代表任意多个字符，问号（？）代表一个字符，方括号（[abc]）代表可选字符范围，大括号（{string1,string2,...}）代表可选的字符串等。</li> <li>如果名称的最前面有一个感叹号（!），表示例外规则，将不被忽略。</li> <li>如果名称的最前面是一个路径分隔符（/），表示要忽略的文件在此目录下，而子目录中的文件不忽略。</li> <li>如果名称的最后面是一个路径分隔符（/），表示要忽略的是此目录下该名称的子目录，而非文件（默认文件或目录都忽略）。</li></ol> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment">#为注释</span>
+*.txt        <span class="token comment">#忽略所有 .txt结尾的文件,这样的话上传就不会被选中！</span>
+<span class="token operator">!</span>lib.txt     <span class="token comment">#但lib.txt除外</span>
+/temp        <span class="token comment">#仅忽略项目根目录下的TODO文件,不包括其它目录temp</span>
+build/       <span class="token comment">#忽略build/目录下的所有文件</span>
+doc/*.txt    <span class="token comment">#会忽略 doc/notes.txt 但不包括 doc/server/arch.txt</span>
+</code></pre></div><h2 id="说明：git-分支"><a href="#说明：git-分支" class="header-anchor">#</a> 说明：GIT 分支</h2> <p>分支在 GIT 中相对较难，分支就是科幻电影里面的平行宇宙，如果两个平行宇宙互不干扰，那对现在的你也没啥影响。不过，在某个时间点，两个平行宇宙合并了，我们就需要处理一些问题了！</p> <p><img src="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7Ksu8UlITwMlbX3kMGtZ9p0BOGzaG4QTc4JXO0hSlwcNtujNzAvxeibSrajLYLCT6otNnHDV9xYWwA/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p> <p><img src="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7Ksu8UlITwMlbX3kMGtZ9p0Ayn87woxfepOhSlUj4FQTFUsia4ic0j6aQy4Tz32PRuJ0HSVeGeUzURA/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p> <p>git 分支中常用指令：</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># 列出所有本地分支</span>
+<span class="token function">git</span> branch
+
+<span class="token comment"># 列出所有远程分支</span>
+<span class="token function">git</span> branch -r
+
+<span class="token comment"># 新建一个分支，但依然停留在当前分支</span>
+<span class="token function">git</span> branch <span class="token punctuation">[</span>branch-name<span class="token punctuation">]</span>
+
+<span class="token comment"># 新建一个分支，并切换到该分支</span>
+<span class="token function">git</span> checkout -b <span class="token punctuation">[</span>branch<span class="token punctuation">]</span>
+
+<span class="token comment"># 合并指定分支到当前分支</span>
+$ <span class="token function">git</span> merge <span class="token punctuation">[</span>branch<span class="token punctuation">]</span>
+
+<span class="token comment"># 删除分支</span>
+$ <span class="token function">git</span> branch -d <span class="token punctuation">[</span>branch-name<span class="token punctuation">]</span>
+
+<span class="token comment"># 删除远程分支</span>
+$ <span class="token function">git</span> push origin --delete <span class="token punctuation">[</span>branch-name<span class="token punctuation">]</span>
+$ <span class="token function">git</span> branch -dr <span class="token punctuation">[</span>remote/branch<span class="token punctuation">]</span>
+</code></pre></div><p>IDEA 中操作</p> <p><img src="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7Ksu8UlITwMlbX3kMGtZ9p0wHNIYeTHC8aHGASoDyZO64QicslqiaMb1OJ1Z1LPoic3LBGyDIYBa7XXw/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="img"></p> <p>如果同一个文件在合并分支时都被修改了则会引起冲突：解决的办法是我们可以修改冲突文件后重新提交！选择要保留他的代码还是你的代码！</p> <p>master 主分支应该非常稳定，用来发布新版本，一般情况下不允许在上面工作，工作一般情况下在新建的 dev 分支上工作，工作完后，比如上要发布，或者说 dev 分支代码稳定后可以合并到主分支 master 上来。</p> <h1 id="git-常用命令"><a href="#git-常用命令" class="header-anchor">#</a> Git 常用命令</h1> <h2 id="仓库"><a href="#仓库" class="header-anchor">#</a> 仓库</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># 在当前目录新建一个Git代码库</span>
+$ <span class="token function">git</span> init
+
+<span class="token comment"># 新建一个目录，将其初始化为Git代码库</span>
+$ <span class="token function">git</span> init <span class="token punctuation">[</span>project-name<span class="token punctuation">]</span>
+
+<span class="token comment"># 下载一个项目和它的整个代码历史</span>
+$ <span class="token function">git</span> clone <span class="token punctuation">[</span>url<span class="token punctuation">]</span>
+</code></pre></div><h2 id="配置"><a href="#配置" class="header-anchor">#</a> 配置</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># 显示当前的Git配置</span>
+$ <span class="token function">git</span> config --list
+
+<span class="token comment"># 编辑Git配置文件</span>
+$ <span class="token function">git</span> config -e <span class="token punctuation">[</span>--global<span class="token punctuation">]</span>
+
+<span class="token comment"># 设置提交代码时的用户信息</span>
+$ <span class="token function">git</span> config <span class="token punctuation">[</span>--global<span class="token punctuation">]</span> user.name <span class="token string">&quot;[name]&quot;</span>
+$ <span class="token function">git</span> config <span class="token punctuation">[</span>--global<span class="token punctuation">]</span> user.email <span class="token string">&quot;[email address]&quot;</span>
+</code></pre></div><h2 id="增加-删除文件"><a href="#增加-删除文件" class="header-anchor">#</a> 增加/删除文件</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># 添加指定文件到暂存区</span>
+$ <span class="token function">git</span> <span class="token function">add</span> <span class="token punctuation">[</span>file1<span class="token punctuation">]</span> <span class="token punctuation">[</span>file2<span class="token punctuation">]</span> <span class="token punctuation">..</span>.
+
+<span class="token comment"># 添加指定目录到暂存区，包括子目录</span>
+$ <span class="token function">git</span> <span class="token function">add</span> <span class="token punctuation">[</span>dir<span class="token punctuation">]</span>
+
+<span class="token comment"># 添加当前目录的所有文件到暂存区</span>
+$ <span class="token function">git</span> <span class="token function">add</span> <span class="token builtin class-name">.</span>
+
+<span class="token comment"># 添加每个变化前，都会要求确认</span>
+<span class="token comment"># 对于同一个文件的多处变化，可以实现分次提交</span>
+$ <span class="token function">git</span> <span class="token function">add</span> -p
+
+<span class="token comment"># 删除工作区文件，并且将这次删除放入暂存区</span>
+$ <span class="token function">git</span> <span class="token function">rm</span> <span class="token punctuation">[</span>file1<span class="token punctuation">]</span> <span class="token punctuation">[</span>file2<span class="token punctuation">]</span> <span class="token punctuation">..</span>.
+
+<span class="token comment"># 停止追踪指定文件，但该文件会保留在工作区</span>
+$ <span class="token function">git</span> <span class="token function">rm</span> --cached <span class="token punctuation">[</span>file<span class="token punctuation">]</span>
+
+<span class="token comment"># 改名文件，并且将这个改名放入暂存区</span>
+$ <span class="token function">git</span> <span class="token function">mv</span> <span class="token punctuation">[</span>file-original<span class="token punctuation">]</span> <span class="token punctuation">[</span>file-renamed<span class="token punctuation">]</span>
+</code></pre></div><h2 id="代码提交"><a href="#代码提交" class="header-anchor">#</a> 代码提交</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># 提交暂存区到仓库区</span>
+$ <span class="token function">git</span> commit -m <span class="token punctuation">[</span>message<span class="token punctuation">]</span>
+
+<span class="token comment"># 提交暂存区的指定文件到仓库区</span>
+$ <span class="token function">git</span> commit <span class="token punctuation">[</span>file1<span class="token punctuation">]</span> <span class="token punctuation">[</span>file2<span class="token punctuation">]</span> <span class="token punctuation">..</span>. -m <span class="token punctuation">[</span>message<span class="token punctuation">]</span>
+
+<span class="token comment"># 提交工作区自上次commit之后的变化，直接到仓库区</span>
+$ <span class="token function">git</span> commit -a
+
+<span class="token comment"># 提交时显示所有diff信息</span>
+$ <span class="token function">git</span> commit -v
+
+<span class="token comment"># 使用一次新的commit，替代上一次提交</span>
+<span class="token comment"># 如果代码没有任何新变化，则用来改写上一次commit的提交信息</span>
+$ <span class="token function">git</span> commit --amend -m <span class="token punctuation">[</span>message<span class="token punctuation">]</span>
+
+<span class="token comment"># 重做上一次commit，并包括指定文件的新变化</span>
+$ <span class="token function">git</span> commit --amend <span class="token punctuation">[</span>file1<span class="token punctuation">]</span> <span class="token punctuation">[</span>file2<span class="token punctuation">]</span> <span class="token punctuation">..</span>.
+</code></pre></div><h2 id="分支"><a href="#分支" class="header-anchor">#</a> 分支</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># 列出所有本地分支</span>
+$ <span class="token function">git</span> branch
+
+<span class="token comment"># 列出所有远程分支</span>
+$ <span class="token function">git</span> branch -r
+
+<span class="token comment"># 列出所有本地分支和远程分支</span>
+$ <span class="token function">git</span> branch -a
+
+<span class="token comment"># 新建一个分支，但依然停留在当前分支</span>
+$ <span class="token function">git</span> branch <span class="token punctuation">[</span>branch-name<span class="token punctuation">]</span>
+
+<span class="token comment"># 新建一个分支，并切换到该分支</span>
+$ <span class="token function">git</span> checkout -b <span class="token punctuation">[</span>branch<span class="token punctuation">]</span>
+
+<span class="token comment"># 新建一个分支，指向指定commit</span>
+$ <span class="token function">git</span> branch <span class="token punctuation">[</span>branch<span class="token punctuation">]</span> <span class="token punctuation">[</span>commit<span class="token punctuation">]</span>
+
+<span class="token comment"># 新建一个分支，与指定的远程分支建立追踪关系</span>
+$ <span class="token function">git</span> branch --track <span class="token punctuation">[</span>branch<span class="token punctuation">]</span> <span class="token punctuation">[</span>remote-branch<span class="token punctuation">]</span>
+
+<span class="token comment"># 切换到指定分支，并更新工作区</span>
+$ <span class="token function">git</span> checkout <span class="token punctuation">[</span>branch-name<span class="token punctuation">]</span>
+
+<span class="token comment"># 切换到上一个分支</span>
+$ <span class="token function">git</span> checkout -
+
+<span class="token comment"># 建立追踪关系，在现有分支与指定的远程分支之间</span>
+$ <span class="token function">git</span> branch --set-upstream <span class="token punctuation">[</span>branch<span class="token punctuation">]</span> <span class="token punctuation">[</span>remote-branch<span class="token punctuation">]</span>
+
+<span class="token comment"># 合并指定分支到当前分支</span>
+$ <span class="token function">git</span> merge <span class="token punctuation">[</span>branch<span class="token punctuation">]</span>
+
+<span class="token comment"># 选择一个commit，合并进当前分支</span>
+$ <span class="token function">git</span> cherry-pick <span class="token punctuation">[</span>commit<span class="token punctuation">]</span>
+
+<span class="token comment"># 删除分支</span>
+$ <span class="token function">git</span> branch -d <span class="token punctuation">[</span>branch-name<span class="token punctuation">]</span>
+
+<span class="token comment"># 删除远程分支</span>
+$ <span class="token function">git</span> push origin --delete <span class="token punctuation">[</span>branch-name<span class="token punctuation">]</span>
+$ <span class="token function">git</span> branch -dr <span class="token punctuation">[</span>remote/branch<span class="token punctuation">]</span>
+</code></pre></div><h2 id="标签"><a href="#标签" class="header-anchor">#</a> 标签</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># 列出所有tag</span>
+$ <span class="token function">git</span> tag
+
+<span class="token comment"># 新建一个tag在当前commit</span>
+$ <span class="token function">git</span> tag <span class="token punctuation">[</span>tag<span class="token punctuation">]</span>
+
+<span class="token comment"># 新建一个tag在指定commit</span>
+$ <span class="token function">git</span> tag <span class="token punctuation">[</span>tag<span class="token punctuation">]</span> <span class="token punctuation">[</span>commit<span class="token punctuation">]</span>
+
+<span class="token comment"># 删除本地tag</span>
+$ <span class="token function">git</span> tag -d <span class="token punctuation">[</span>tag<span class="token punctuation">]</span>
+
+<span class="token comment"># 删除远程tag</span>
+$ <span class="token function">git</span> push origin :refs/tags/<span class="token punctuation">[</span>tagName<span class="token punctuation">]</span>
+
+<span class="token comment"># 查看tag信息</span>
+$ <span class="token function">git</span> show <span class="token punctuation">[</span>tag<span class="token punctuation">]</span>
+
+<span class="token comment"># 提交指定tag</span>
+$ <span class="token function">git</span> push <span class="token punctuation">[</span>remote<span class="token punctuation">]</span> <span class="token punctuation">[</span>tag<span class="token punctuation">]</span>
+
+<span class="token comment"># 提交所有tag</span>
+$ <span class="token function">git</span> push <span class="token punctuation">[</span>remote<span class="token punctuation">]</span> --tags
+
+<span class="token comment"># 新建一个分支，指向某个tag</span>
+$ <span class="token function">git</span> checkout -b <span class="token punctuation">[</span>branch<span class="token punctuation">]</span> <span class="token punctuation">[</span>tag<span class="token punctuation">]</span>
+</code></pre></div><h2 id="查看信息"><a href="#查看信息" class="header-anchor">#</a> 查看信息</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># 显示有变更的文件</span>
+$ <span class="token function">git</span> status
+
+<span class="token comment"># 显示当前分支的版本历史</span>
+$ <span class="token function">git</span> log
+
+<span class="token comment"># 显示commit历史，以及每次commit发生变更的文件</span>
+$ <span class="token function">git</span> log --stat
+
+<span class="token comment"># 搜索提交历史，根据关键词</span>
+$ <span class="token function">git</span> log -S <span class="token punctuation">[</span>keyword<span class="token punctuation">]</span>
+
+<span class="token comment"># 显示某个commit之后的所有变动，每个commit占据一行</span>
+$ <span class="token function">git</span> log <span class="token punctuation">[</span>tag<span class="token punctuation">]</span> HEAD --pretty<span class="token operator">=</span>format:%s
+
+<span class="token comment"># 显示某个commit之后的所有变动，其&quot;提交说明&quot;必须符合搜索条件</span>
+$ <span class="token function">git</span> log <span class="token punctuation">[</span>tag<span class="token punctuation">]</span> HEAD --grep feature
+
+<span class="token comment"># 显示某个文件的版本历史，包括文件改名</span>
+$ <span class="token function">git</span> log --follow <span class="token punctuation">[</span>file<span class="token punctuation">]</span>
+$ <span class="token function">git</span> whatchanged <span class="token punctuation">[</span>file<span class="token punctuation">]</span>
+
+<span class="token comment"># 显示指定文件相关的每一次diff</span>
+$ <span class="token function">git</span> log -p <span class="token punctuation">[</span>file<span class="token punctuation">]</span>
+
+<span class="token comment"># 显示过去5次提交</span>
+$ <span class="token function">git</span> log -5 --pretty --oneline
+
+<span class="token comment"># 显示所有提交过的用户，按提交次数排序</span>
+$ <span class="token function">git</span> shortlog -sn
+
+<span class="token comment"># 显示指定文件是什么人在什么时间修改过</span>
+$ <span class="token function">git</span> blame <span class="token punctuation">[</span>file<span class="token punctuation">]</span>
+
+<span class="token comment"># 显示暂存区和工作区的差异</span>
+$ <span class="token function">git</span> <span class="token function">diff</span>
+
+<span class="token comment"># 显示暂存区和上一个commit的差异</span>
+$ <span class="token function">git</span> <span class="token function">diff</span> --cached <span class="token punctuation">[</span>file<span class="token punctuation">]</span>
+
+<span class="token comment"># 显示工作区与当前分支最新commit之间的差异</span>
+$ <span class="token function">git</span> <span class="token function">diff</span> HEAD
+
+<span class="token comment"># 显示两次提交之间的差异</span>
+$ <span class="token function">git</span> <span class="token function">diff</span> <span class="token punctuation">[</span>first-branch<span class="token punctuation">]</span><span class="token punctuation">..</span>.<span class="token punctuation">[</span>second-branch<span class="token punctuation">]</span>
+
+<span class="token comment"># 显示今天你写了多少行代码</span>
+$ <span class="token function">git</span> <span class="token function">diff</span> --shortstat <span class="token string">&quot;@{0 day ago}&quot;</span>
+
+<span class="token comment"># 显示某次提交的元数据和内容变化</span>
+$ <span class="token function">git</span> show <span class="token punctuation">[</span>commit<span class="token punctuation">]</span>
+
+<span class="token comment"># 显示某次提交发生变化的文件</span>
+$ <span class="token function">git</span> show --name-only <span class="token punctuation">[</span>commit<span class="token punctuation">]</span>
+
+<span class="token comment"># 显示某次提交时，某个文件的内容</span>
+$ <span class="token function">git</span> show <span class="token punctuation">[</span>commit<span class="token punctuation">]</span>:<span class="token punctuation">[</span>filename<span class="token punctuation">]</span>
+
+<span class="token comment"># 显示当前分支的最近几次提交</span>
+$ <span class="token function">git</span> reflog
+</code></pre></div><h2 id="远程同步"><a href="#远程同步" class="header-anchor">#</a> 远程同步</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># 下载远程仓库的所有变动</span>
+$ <span class="token function">git</span> fetch <span class="token punctuation">[</span>remote<span class="token punctuation">]</span>
+
+<span class="token comment"># 显示所有远程仓库</span>
+$ <span class="token function">git</span> remote -v
+
+<span class="token comment"># 显示某个远程仓库的信息</span>
+$ <span class="token function">git</span> remote show <span class="token punctuation">[</span>remote<span class="token punctuation">]</span>
+
+<span class="token comment"># 增加一个新的远程仓库，并命名</span>
+$ <span class="token function">git</span> remote <span class="token function">add</span> <span class="token punctuation">[</span>shortname<span class="token punctuation">]</span> <span class="token punctuation">[</span>url<span class="token punctuation">]</span>
+
+<span class="token comment"># 取回远程仓库的变化，并与本地分支合并</span>
+$ <span class="token function">git</span> pull <span class="token punctuation">[</span>remote<span class="token punctuation">]</span> <span class="token punctuation">[</span>branch<span class="token punctuation">]</span>
+
+<span class="token comment"># 上传本地指定分支到远程仓库</span>
+$ <span class="token function">git</span> push <span class="token punctuation">[</span>remote<span class="token punctuation">]</span> <span class="token punctuation">[</span>branch<span class="token punctuation">]</span>
+
+<span class="token comment"># 强行推送当前分支到远程仓库，即使有冲突</span>
+$ <span class="token function">git</span> push <span class="token punctuation">[</span>remote<span class="token punctuation">]</span> --force
+
+<span class="token comment"># 推送所有分支到远程仓库</span>
+$ <span class="token function">git</span> push <span class="token punctuation">[</span>remote<span class="token punctuation">]</span> --all
+</code></pre></div><h2 id="撤销"><a href="#撤销" class="header-anchor">#</a> 撤销</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># 恢复暂存区的指定文件到工作区</span>
+$ <span class="token function">git</span> checkout <span class="token punctuation">[</span>file<span class="token punctuation">]</span>
+
+<span class="token comment"># 恢复某个commit的指定文件到暂存区和工作区</span>
+$ <span class="token function">git</span> checkout <span class="token punctuation">[</span>commit<span class="token punctuation">]</span> <span class="token punctuation">[</span>file<span class="token punctuation">]</span>
+
+<span class="token comment"># 恢复暂存区的所有文件到工作区</span>
+$ <span class="token function">git</span> checkout <span class="token builtin class-name">.</span>
+
+<span class="token comment"># 重置暂存区的指定文件，与上一次commit保持一致，但工作区不变</span>
+$ <span class="token function">git</span> reset <span class="token punctuation">[</span>file<span class="token punctuation">]</span>
+
+<span class="token comment"># 重置暂存区与工作区，与上一次commit保持一致</span>
+$ <span class="token function">git</span> reset --hard
+
+<span class="token comment"># 重置当前分支的指针为指定commit，同时重置暂存区，但工作区不变</span>
+$ <span class="token function">git</span> reset <span class="token punctuation">[</span>commit<span class="token punctuation">]</span>
+
+<span class="token comment"># 重置当前分支的HEAD为指定commit，同时重置暂存区和工作区，与指定commit一致</span>
+$ <span class="token function">git</span> reset --hard <span class="token punctuation">[</span>commit<span class="token punctuation">]</span>
+
+<span class="token comment"># 重置当前HEAD为指定commit，但保持暂存区和工作区不变</span>
+$ <span class="token function">git</span> reset --keep <span class="token punctuation">[</span>commit<span class="token punctuation">]</span>
+
+<span class="token comment"># 新建一个commit，用来撤销指定commit</span>
+<span class="token comment"># 后者的所有变化都将被前者抵消，并且应用到当前分支</span>
+$ <span class="token function">git</span> revert <span class="token punctuation">[</span>commit<span class="token punctuation">]</span>
+
+暂时将未提交的变化移除，稍后再移入
+$ <span class="token function">git</span> stash
+$ <span class="token function">git</span> stash pop
+</code></pre></div><h2 id="其他"><a href="#其他" class="header-anchor">#</a> 其他</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># 生成一个可供发布的压缩包</span>
+$ <span class="token function">git</span> archive
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"><div id="live2d-widget" class="live2d-widget-container" style="position:fixed;right:65px;bottom:0px;width:135px;height:300px;z-index:99999;opacity:0.8;pointer-events:none;"><canvas id="live2d_canvas" width="135" height="300" class="live2d_canvas" style="position:absolute;left:0px;top:0px;width:135px;height:300px;"></canvas></div></div></div>
+    <script src="/assets/js/app.9189764f.js" defer></script><script src="/assets/js/2.ef243b8b.js" defer></script><script src="/assets/js/8.feefd08d.js" defer></script>
+  </body>
+</html>
